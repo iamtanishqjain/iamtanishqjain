@@ -1,77 +1,169 @@
-<h1 align="center">Hi 👋, I'm Tanishq Jain</h1>
-<h3 align="center">B.Tech CSE (AI & ML) Student at JECRC Foundation, Jaipur, India 🇮🇳</h3>
+<!--
+  ────────────────────────────────────────────────────────────
+  Tanishq Jain • GitHub Profile README
+  Tip: this file lives at github.com/iamtanishqjain/iamtanishqjain
+  ────────────────────────────────────────────────────────────
+-->
 
-<img align="right" alt="coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<a href="https://github.com/iamtanishqjain">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=200&section=header&text=Tanishq%20Jain&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Speech%20AI%20%E2%80%A2%20NLP%20%E2%80%A2%20Full-Stack%20AI%20Systems&descAlignY=58&descSize=18" alt="header"/>
+</a>
 
----
+<p align="center">
+  <a href="https://linkedin.com/in/tanishq-jain"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/iamtanishqjain"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://twitter.com/imtanishqjain"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+  <a href="mailto:tanishqjain7014@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=iamtanishqjain&label=Profile%20views&color=26d0ce&style=for-the-badge" alt="views"/>
+</p>
 
-### 🌱 About Me
-
-* 🤖 I’m currently working on **Machine Learning & NLP**
-* 🧠 Interested in **Speech Recognition & Language Understanding**
-* ⚙️ Building **end-to-end ML pipelines**
-* 🎯 Goal: Become an **AI Engineer**
-
----
-
-### 📫 How to reach me
-
-* 📧 [tanishqjain7014@gmail.com](mailto:your-email@gmail.com)
-
----
-
-### 🔗 Connect with me
-
-<p align="left">
-<a href="[https://linkedin.com/in/tanishq-jain-660b5336a/]" target="blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" height="30" /></a>
-<a href="https://twitter.com/imtanishqjain" target="blank"><img align="center" src="https://skillicons.dev/icons?i=twitter" height="30" /></a>
-<a href="https://github.com/iamtanishqjain" target="blank"><img align="center" src="https://skillicons.dev/icons?i=github" height="30" /></a>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=26D0CE&center=true&vCenter=true&width=600&lines=B.Tech+CSE+(AI+%26+ML)+%40+JECRC+Jaipur;Building+end-to-end+Speech+%26+NLP+systems;Whisper+ASR+%E2%80%A2+RAG+%E2%80%A2+Local+LLM+inference;Open-source+contributor+%E2%80%A2+Aspiring+AI+Engineer" alt="typing"/>
+  </a>
 </p>
 
 ---
 
-### 🛠️ Languages and Tools
+### 🧠 About Me
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,docker,aws,linux,git" />
-<img src="https://skillicons.dev/icons?i=tensorflow" />
+```python
+class TanishqJain:
+    def __init__(self):
+        self.role      = "AI & ML Undergraduate"
+        self.school    = "JECRC, Jaipur (CGPA 8.11)"
+        self.focus     = ["Speech AI", "NLP", "RAG", "Full-Stack AI apps"]
+        self.stack     = ["Python", "PyTorch", "FastAPI", "Next.js", "Ollama"]
+        self.currently = "Shipping end-to-end AI systems and contributing to OSS"
+        self.goal      = "Become an AI Engineer who builds things that actually run"
+```
+
+I build AI systems that go the whole way, from raw audio and messy contracts to working, containerized apps. Whisper based speech scoring, retrieval augmented generation, and local privacy preserving LLM inference are my current playground.
+
+---
+
+### 🛠️ Tech Stack
+
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts" />
+</p>
+
+**Machine Learning & AI**
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow" />
+  <img src="https://img.shields.io/badge/Whisper_ASR-000000?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG-1a2980?style=flat-square"/>
+  <img src="https://img.shields.io/badge/LLMs-26d0ce?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
+</p>
+
+**Backend & Full-Stack**
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,nextjs,react" />
+</p>
+
+**Tools & Infra**
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,vscode" />
 </p>
 
 ---
 
-### 🚀 Projects
+### 🚀 Featured Projects
 
-#### 🔹 AI Interview Analyzer (In Progress)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-* Audio → Transcription → NLP → Scoring → Feedback
-* Tech: Python, Whisper, NLP
+#### 🎙️ AutoEIT
+**AI-powered speech transcription & scoring**
 
-#### 🔹 Legal Compliance AI
+End-to-end pipeline that transcribes and scores Spanish Elicited Imitation Test recordings.
 
-* Rule-based NLP system for contract clause detection
-* Improving towards ML-based approach
+- Dynamic Programming alignment hitting **30/30** sentence matching
+- Rule-based + fuzzy-matching scoring rubric, **7/7** validation tests passed
+- `Python` · `Whisper Large` · `NLP`
 
-#### 🔹 Beginner ML Projects
+[**→ Repo**](https://github.com/iamtanishqjain/AutoEIT)
 
-* Titanic Survival Prediction
-* Rock vs Mine Classification
+</td>
+<td width="50%" valign="top">
+
+#### 🧩 Mini Onyx
+**Full-stack AI platform with RAG**
+
+Open-source, fully offline AI platform with a custom vector store and local LLM inference.
+
+- Custom cosine-similarity vector store for lightweight retrieval
+- Local Llama 3 via Ollama, containerized with Docker Compose
+- `FastAPI` · `Next.js` · `TypeScript` · `Ollama`
+
+[**→ Repo**](https://github.com/iamtanishqjain/mini-onyx)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚖️ Legal Compliance AI
+**Contract risk-screening system**
+
+Flags LOW / MEDIUM / HIGH labour-law compliance risk in employment contracts.
+
+- Semantic matching with sentence-transformer (MiniLM) + risk-scoring engine
+- **65% exact-match (13/20)** with **zero false negatives**
+- `FastAPI` · `JWT` · `React/Vite` · `Docker`
+
+[**→ Repo**](https://github.com/iamtanishqjain/legal-compliance-ai)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌐 Open Source
+**Real fixes in real codebases**
+
+- **Rocket.Chat** — fixed Apps.QuickReplies UI state bug, **PR #84 merged**
+- **Rocket.Chat** — fixed Accept-Ranges header regression breaking audio seek (in review)
+- **gammapy** — fixed SVD convergence error in `RegionGeom` (in review)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🏆 Highlights
+
+- 🎯 Qualified for the **Amazon ML Summer School 2026** selection test, shortlisted in the top **30,000** of **130,000+** applicants
+- ⭐ **5-Star Problem Solving** badge on HackerRank
+- 🔬 Collaborated with the **CERN Human-AI Team** on speech transcription and scoring for second-language acquisition research
+- 🛡️ Built an explainable anomaly-detection system for Aadhaar demographic analysis at the **UIDAI Hackathon**
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=iamtanishqjain&show_icons=true&theme=tokyonight" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamtanishqjain&theme=tokyonight" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamtanishqjain&layout=compact&theme=tokyonight" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=iamtanishqjain&show_icons=true&count_private=true&hide_border=true&title_color=26d0ce&icon_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=iamtanishqjain&hide_border=true&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&background=0d1117" />
+</p>
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamtanishqjain&layout=compact&hide_border=true&title_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
 </p>
 
 ---
 
-### ⚡ Current Focus
+### 🐍 Contribution Snake
 
-* Building **real-world NLP systems**
-* Moving from **rule-based → ML-based models**
-* Preparing for **open-source contributions (GSoC)**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/output/github-contribution-grid-snake-dark.svg" alt="snake eating my contributions"/>
+</p>
 
 ---
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:26d0ce,100:1a2980&height=120&section=footer"/>
+</p>
+
+<p align="center"><i>Moving from rule-based to ML-based. From "in progress" to shipped.</i></p>
