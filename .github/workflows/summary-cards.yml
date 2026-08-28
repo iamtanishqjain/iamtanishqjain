@@ -19,28 +19,47 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      # Generate the dark set first, but hold the push so both themes
-      # land in a single commit.
+      # Each run of the action rebuilds profile-summary-card-output/ from
+      # scratch, so the two themes are generated one at a time and the first
+      # is parked outside that directory until the second finishes.
       - name: Generate cards (github_dark)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: "main"
           UTC_OFFSET: 5
           THEME: "github_dark"
           AUTO_PUSH: false
 
-      - name: Generate cards (github light) and push
+      - name: Park the dark set
+        run: |
+          rm -rf "$RUNNER_TEMP/github_dark"
+          cp -r profile-summary-card-output/github_dark "$RUNNER_TEMP/github_dark"
+
+      - name: Generate cards (github light)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: "main"
           UTC_OFFSET: 5
           THEME: "github"
-          AUTO_PUSH: true
+          AUTO_PUSH: false
+
+      - name: Restore the dark set
+        run: cp -r "$RUNNER_TEMP/github_dark" profile-summary-card-output/github_dark
+
+      - name: Commit both themes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-summary-card-output
+          if git diff --staged --quiet; then
+            echo "Cards unchanged, nothing to commit."
+          else
+            git commit -m "chore(cards): refresh profile summary cards"
+            git push
+          fi
