@@ -146,7 +146,7 @@ Flags LOW / MEDIUM / HIGH labour-law compliance risk in employment contracts.
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=iamtanishqjain&show_icons=true&count_private=true&hide_border=true&title_color=26d0ce&icon_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=iamtanishqjain&hide_border=true&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&background=0d1117" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=iamtanishqjain&hide_border=true&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&background=0d1117" />
 </p>
 <p align="center">
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamtanishqjain&layout=compact&hide_border=true&title_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
@@ -157,7 +157,11 @@ Flags LOW / MEDIUM / HIGH labour-law compliance risk in employment contracts.
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/output/github-contribution-grid-snake-dark.svg" alt="snake eating my contributions"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/output/github-contribution-grid-snake.svg" />
+    <img width="100%" alt="the snake eating my contribution graph" src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---

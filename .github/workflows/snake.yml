@@ -1,0 +1,43 @@
+name: 🐍 Generate Contribution Snake
+
+on:
+  # Rebuild twice a day so the snake stays in sync with new contributions
+  schedule:
+    - cron: "0 */12 * * *"
+  # Let me trigger it by hand from the Actions tab
+  workflow_dispatch:
+  # Regenerate whenever the profile itself changes
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: snake-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate snake animations
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=#26d0ce&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore(snake): regenerate contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
