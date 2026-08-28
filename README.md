@@ -6,7 +6,7 @@
 -->
 
 <a href="https://github.com/iamtanishqjain">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=200&section=header&text=Tanishq%20Jain&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Speech%20AI%20%E2%80%A2%20NLP%20%E2%80%A2%20Full-Stack%20AI%20Systems&descAlignY=58&descSize=18" alt="header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2980,100:26d0ce&height=200&section=header&text=Tanishq%20Jain&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Backend%20Systems%20%E2%80%A2%20Applied%20ML&descAlignY=58&descSize=18" alt="header"/>
 </a>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=26D0CE&center=true&vCenter=true&width=600&lines=B.Tech+CSE+(AI+%26+ML)+%40+JECRC+Jaipur;Building+end-to-end+Speech+%26+NLP+systems;Whisper+ASR+%E2%80%A2+RAG+%E2%80%A2+Local+LLM+inference;Open-source+contributor+%E2%80%A2+Aspiring+AI+Engineer" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=26D0CE&center=true&vCenter=true&width=820&height=45&lines=AI+Engineer+%E2%80%A2+Backend+Developer;I+build+APIs%2C+pipelines+and+ML+systems;FastAPI+%E2%80%A2+Docker+%E2%80%A2+PyTorch+%E2%80%A2+Next.js;Open+source+%40+Rocket.Chat+and+gammapy" alt="typing"/>
   </a>
 </p>
 
@@ -30,15 +30,19 @@
 ```python
 class TanishqJain:
     def __init__(self):
-        self.role      = "AI & ML Undergraduate"
-        self.school    = "JECRC, Jaipur (CGPA 8.11)"
-        self.focus     = ["Speech AI", "NLP", "RAG", "Full-Stack AI apps"]
-        self.stack     = ["Python", "PyTorch", "FastAPI", "Next.js", "Ollama"]
-        self.currently = "Shipping end-to-end AI systems and contributing to OSS"
-        self.goal      = "Become an AI Engineer who builds things that actually run"
+        self.role     = "AI Engineer & Backend Developer"
+        self.school   = "B.Tech CSE (AI & ML) @ JECRC Jaipur — CGPA 8.11"
+        self.builds   = ["ML systems", "REST APIs", "data pipelines", "full-stack apps"]
+        self.stack    = ["Python", "FastAPI", "PyTorch", "Docker", "Next.js", "TypeScript"]
+        self.approach = "Own it end to end — model, service, container, deploy"
+
+    def currently(self):
+        return "Shipping production AI systems and contributing to OSS"
 ```
 
-I build AI systems that go the whole way, from raw audio and messy contracts to working, containerized apps. Whisper based speech scoring, retrieval augmented generation, and local privacy preserving LLM inference are my current playground.
+I'm an **AI engineer who lives on the backend**. Most of my work is the unglamorous half of ML: designing the APIs, pipelines, auth and containers that turn a model into something people can actually call.
+
+Applied ML is where I started — speech scoring, retrieval-augmented generation, local LLM inference — but the through-line is systems that **ship, scale and stay up**, not notebooks.
 
 ---
 
