@@ -10,6 +10,10 @@ on:
   push:
     branches:
       - main
+    # The summary-cards job commits here on its own schedule; no need to
+    # rebuild the snake just for that.
+    paths-ignore:
+      - "profile-summary-card-output/**"
 
 concurrency:
   group: snake-${{ github.ref }}
