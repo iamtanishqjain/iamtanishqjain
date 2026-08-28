@@ -48,28 +48,36 @@ Applied ML is where I started — speech scoring, retrieval-augmented generation
 
 ### 🛠️ Tech Stack
 
-**Languages**
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts" />
-</p>
+<table align="center">
+  <tr>
+    <td align="right"><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=python,ts,js,cpp,c" alt="Languages" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Backend &amp; APIs</b></td>
+    <td><img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs" alt="Backend and APIs" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>AI &amp; ML</b></td>
+    <td><img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow" alt="AI and ML" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nextjs,react,vite" alt="Frontend" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Infra &amp; Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,linux,aws,git,github,vscode" alt="Infra and Tools" /></td>
+  </tr>
+</table>
 
-**Machine Learning & AI**
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow" />
-  <img src="https://img.shields.io/badge/Whisper_ASR-000000?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG-1a2980?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LLMs-26d0ce?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
-</p>
-
-**Backend & Full-Stack**
-<p>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,nextjs,react" />
-</p>
-
-**Tools & Infra**
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,vscode" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Whisper%20ASR-0D1117?style=flat-square&logo=pytorch&logoColor=26D0CE" alt="Whisper ASR" />
+  <img src="https://img.shields.io/badge/RAG-0D1117?style=flat-square" alt="RAG" />
+  <img src="https://img.shields.io/badge/LLM%20Inference-0D1117?style=flat-square" alt="LLM Inference" />
+  <img src="https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logo=ollama&logoColor=26D0CE" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-0D1117?style=flat-square&logo=huggingface&logoColor=26D0CE" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/JWT-0D1117?style=flat-square&logo=jsonwebtokens&logoColor=26D0CE" alt="JWT" />
 </p>
 
 ---
