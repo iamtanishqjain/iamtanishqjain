@@ -145,11 +145,30 @@ Flags LOW / MEDIUM / HIGH labour-law compliance risk in employment contracts.
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=iamtanishqjain&show_icons=true&count_private=true&hide_border=true&title_color=26d0ce&icon_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=iamtanishqjain&hide_border=true&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&background=0d1117" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/3-stats.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github/3-stats.svg" />
+    <img width="49%" alt="commits, PRs, issues and repositories contributed to" src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/3-stats.svg" />
+  </picture>
+  <img width="49%" alt="contribution streak" src="https://streak-stats.demolab.com/?user=iamtanishqjain&hide_border=true&stroke=26d0ce&ring=26d0ce&fire=1a2980&currStreakLabel=26d0ce&background=0d1117" />
 </p>
+
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamtanishqjain&layout=compact&hide_border=true&title_color=26d0ce&text_color=c9d1d9&bg_color=0d1117" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github/1-repos-per-language.svg" />
+    <img width="32%" alt="top languages by repository" src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github/2-most-commit-language.svg" />
+    <img width="32%" alt="top languages by commit" src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github/4-productive-time.svg" />
+    <img width="32%" alt="what time of day I actually commit" src="https://raw.githubusercontent.com/iamtanishqjain/iamtanishqjain/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
+  </picture>
 </p>
 
 ---
