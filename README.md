@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=26D0CE&center=true&vCenter=true&width=820&height=45&lines=AI+Engineer+%E2%80%A2+Backend+Developer;I+build+APIs%2C+pipelines+and+ML+systems;FastAPI+%E2%80%A2+Docker+%E2%80%A2+PyTorch+%E2%80%A2+Next.js;Open+source+%40+Rocket.Chat+and+gammapy" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=26D0CE&center=true&vCenter=true&width=820&height=45&lines=AI+Engineer+%E2%80%A2+Backend+Developer;I+build+APIs%2C+pipelines+and+ML+systems;FastAPI+%E2%80%A2+Docker+%E2%80%A2+PyTorch+%E2%80%A2+Next.js;Open+source+%40+Rocket.Chat+and+C2SI" alt="typing"/>
   </a>
 </p>
 
