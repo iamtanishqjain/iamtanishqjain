@@ -15,7 +15,7 @@ I work on **Kubernetes schedulers, AI inference gateways and cloud-native toolin
 
 <img align="right" width="260" src="https://count.getloli.com/@:iamtanishqjain?theme=asoul" alt="Profile views" />
 
-▸ **Member** · **[Volcano](https://github.com/volcano-sh)** · CNCF batch scheduling for Kubernetes · credited in the [v1.16.0 release](https://volcano.sh/blog/volcano-1.16.0-release/)<br/>
+▸ **Member** · **[Volcano](https://github.com/volcano-sh)** · CNCF batch scheduling for Kubernetes · credited in the [v1.16.0](https://volcano.sh/blog/volcano-1.16.0-release/)<br/>
 ▸ **Contributor** · **[Kthena](https://github.com/volcano-sh/kthena)** · CNCF · LLM inference gateway: router auth, autoscaling, workqueue retries, access logging<br/>
 ▸ **Contributor** · **[Music Blocks](https://github.com/sugarlabs/musicblocks)** · Sugar Labs · ABC, LilyPond and MusicXML export, block runtime<br/>
 ▸ **Contributor** · **[CircuitVerse](https://github.com/CircuitVerse/cv-frontend-vue)** · digital logic simulator used in classrooms worldwide<br/>
