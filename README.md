@@ -13,14 +13,12 @@
 
 I work on **Kubernetes schedulers, AI inference gateways and cloud-native tooling**, mostly on the parts that fail quietly.
 
-<img align="right" width="260" src="https://count.getloli.com/@:iamtanishqjain?theme=asoul" alt="Profile views" />
-
 ▸ **Member** · **[Volcano](https://github.com/volcano-sh)** · CNCF batch scheduling for Kubernetes · credited in the [v1.16.0](https://volcano.sh/blog/volcano-1.16.0-release/)<br/>
-▸ **Contributor** · **[Kthena](https://github.com/volcano-sh/kthena)** · CNCF · LLM inference gateway: router auth, autoscaling, workqueue retries, access logging<br/>
+▸ **Contributor** · **[Kthena](https://github.com/volcano-sh/kthena)** · CNCF · LLM inference gateway: router auth, autoscaling, workqueue retries, pod lifecycle, access logging<br/>
 ▸ **Contributor** · **[Music Blocks](https://github.com/sugarlabs/musicblocks)** · Sugar Labs · ABC, LilyPond and MusicXML export, block runtime<br/>
 ▸ **Contributor** · **[CircuitVerse](https://github.com/CircuitVerse/cv-frontend-vue)** · digital logic simulator used in classrooms worldwide<br/>
-▸ **[50+ merged pull requests](https://github.com/search?q=author%3Aiamtanishqjain+is%3Apr+is%3Amerged&type=pullrequests)** across CNCF projects and other organizations<br/>
-▸ **[70+ issues filed](https://github.com/search?q=author%3Aiamtanishqjain+is%3Aissue&type=issues)** · most of what I fix, I found first<br/>
+▸ **[60+ merged pull requests](https://github.com/search?q=author%3Aiamtanishqjain+is%3Apr+is%3Amerged&type=pullrequests)** across CNCF projects and other organizations<br/>
+▸ **[80+ issues filed](https://github.com/search?q=author%3Aiamtanishqjain+is%3Aissue&type=issues)** · most of what I fix, I found first<br/>
 ▸ **CERN Human-AI Team** · speech transcription and scoring for second-language acquisition research<br/>
 ▸ **Amazon ML Summer School 2026** · shortlisted from 130,000+ applicants<br/>
 
@@ -30,6 +28,7 @@ Currently deep in **Volcano** and **Kthena**.
 
 | | |
 |---|---|
+| [kthena#2064](https://github.com/volcano-sh/kthena/pull/2064) | The controller deleted a Pod while kubelet was still retrying its init container, restarting a model download from zero. |
 | [kthena#1831](https://github.com/volcano-sh/kthena/pull/1831) | An unset `auth.issuer` silently rejected every token the router was given. |
 | [kthena#1788](https://github.com/volcano-sh/kthena/pull/1788) | Retry count never reset on success, so one flaky sync permanently shrank the budget. |
 | [volcano#6042](https://github.com/volcano-sh/volcano/pull/6042) | A jobflow whose jobs finished before the first sync never settled. |
